@@ -17,6 +17,24 @@ export function Footer() {
               Professional websites, SEO, and digital marketing that help small
               businesses grow online.
             </p>
+            <div className="mt-5 flex items-center gap-4">
+  <a
+    href="https://www.google.com/maps/place/ByTech+Wave/@14.1576412,-95.8678762,3z/data=!3m1!4b1!4m6!3m5!1s0x2fbdd86f685ce449:0x514051e0e0ad72c9!8m2!3d14.1576412!4d-95.8678762!16s%2Fg%2F11zgt7pn3s?entry=ttu&g_ep=EgoyMDI2MDcyOS4wIKXMDSoASAFQAw%3D%3D"
+    target="_blank"
+    rel="noopener noreferrer"
+    aria-label="Google Business Profile"
+    title="Google Business Profile"
+    className="transition-all duration-300 hover:scale-110 hover:opacity-80"
+  >
+    <img
+      src="/google.svg"
+      alt="Google Business Profile"
+      className="h-6 w-6"
+      loading="lazy"
+      decoding="async"
+    />
+  </a>
+</div>
           </div>
 
           <div>
@@ -76,6 +94,7 @@ export function Footer() {
                   <MessageCircle className="h-4 w-4 text-accent" /> WhatsApp Chat
                 </a>
               </li>
+              
             </ul>
           </div>
         </div>
