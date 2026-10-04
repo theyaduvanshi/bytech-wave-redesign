@@ -40,7 +40,7 @@ function Home() {
       <TestimonialsSection />
       <FAQSection
         items={[
-          { q: "How much does a website cost?", a: "Our informational websites start at just ₹6,000 ($64). Custom projects and eCommerce are priced based on scope." },
+          
           { q: "How long does it take to build a website?", a: "Most informational websites are delivered in 5–10 business days after content and images are provided." },
           { q: "Do you offer SEO services?", a: "Yes — we specialize in Local SEO, on-page optimization, and Google Business Profile management to help you rank locally." },
           { q: "Do you provide website maintenance?", a: "Absolutely. Our maintenance plans cover updates, backups, security, and performance tuning." },
@@ -86,15 +86,7 @@ function Hero() {
               Professional website design, SEO, Google Business Profile optimization, and digital marketing solutions that help businesses generate more leads and customers.
             </motion.p>
 
-            <motion.div
-              initial={{ opacity: 0, scale: 0.95 }}
-              animate={{ opacity: 1, scale: 1 }}
-              transition={{ duration: 0.6, delay: 0.35 }}
-              className="mt-6 inline-flex items-center gap-3 rounded-2xl bg-gradient-accent px-5 py-3 text-white shadow-accent-glow animate-pulse-glow"
-            >
-              <Zap className="h-5 w-5" />
-              <span className="font-bold">Informational Websites Starting at Just ₹6,000 ($64)</span>
-            </motion.div>
+            
 
             <motion.div
               initial={{ opacity: 0, y: 20 }}
